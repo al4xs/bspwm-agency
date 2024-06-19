@@ -248,6 +248,8 @@ else
 	cp -rv $dir/scripts/*.sh ~/.config/polybar/shapes/scripts/
 	cp -rv $dir/home/* ~/
 	cp -rv $dir/home/.* ~/
+	rm -rf ~/.cache/wal
+	cp -rv $dir/wal ~/.cache/wal
 	touch ~/.config/polybar/shapes/scripts/target
 	echo -e "\n${greenColour}[+] Done\n${endColour}"
 	sleep 1.5
@@ -277,9 +279,6 @@ else
 
 	echo -e "\n${greenColour}[+] Environment configured :D\n${endColour}"
 	sleep 1.5
-
-	# adicionando asssinatura chaos
-	export CHAOS_KEY=2ba09dd6-9a3c-457b-804f-730220de1d69
 
 	while true; do
 		echo -en "\n${yellowColour}[?] It's necessary to restart the system. Do you want to restart the system now? ([y]/n) ${endColour}"
