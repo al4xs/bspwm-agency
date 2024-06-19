@@ -1,0 +1,6 @@
+{
+    "flags": "-iEv",
+    "patterns": [
+        ".(jpg|png|jpeg|css|tif|tiff|ttf|woff2|ico|icon|axd|woff|eot|svg|txt|webp|xml|pdf|gif)"
+    ]
+}

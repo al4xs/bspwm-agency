@@ -1,0 +1,23 @@
+/* colors */
+
+
+* {
+  al:    #00000000;   /* Transparente */
+  bg:    #1F1F1FFF;   /* Azul escuro, quase preto */
+  bg1:   #1976D2FF;   /* Azul escuro */
+  bg2:   #1E88E5FF;   /* Azul mais claro */
+  bg3:   #2196F3FF;   /* Azul ainda mais claro */
+  fg:    #FFFFFFFF;   /* Branco */
+}
+
+
+/* Antigo para theme roxo */
+
+/* * { */
+/*   al:    #00000000; */
+/*   bg:    #1F1F1FFF; */
+/*   bg1:   #4527A0FF; */
+/*   bg2:   #512DA8FF; */
+/*   bg3:   #5E35B1FF; */
+/*   fg:    #FFFFFFFF; */
+/* } */
