@@ -72,7 +72,7 @@ else
 
 	echo -e "\n${purpleColour}[*] Installing necessary dependencies for bspwm...\n${endColour}"
 	sleep 2
-	sudo apt install -y build-essential git vim libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev libuv1-dev
+	sudo apt install -y build-essential git vim libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev libuv1-dev golang
 	if [ $? != 0 ] && [ $? != 130 ]; then
 		echo -e "\n${redColour}[-] Failed to install some dependencies for bspwm!\n${endColour}"
 		exit 1
@@ -285,7 +285,7 @@ else
 	rm -rfv $dir
 	echo -e "\n${greenColour}[+] Done\n${endColour}"
 	sleep 1.5
-
+	go install github.com/al4xs/deconstructurl@latest
 	echo -e "\n${greenColour}[+] Environment configured :D\n${endColour}"
 	sleep 1.5
 

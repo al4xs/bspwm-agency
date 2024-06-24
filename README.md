@@ -23,7 +23,7 @@ Talvez em outra distribuição não funcione!
 
 Disponibilizei uma gama de wallpapers que gosto de usar e ter em meu kali linux.
 
-3.- Durante a instalacao sempre que aparecer um menu pra selecionar algo aperte TAB e selecione OK.
+3.- Durante a instalação sempre que aparecer um menu pra selecionar algo aperte TAB e selecione OK.
 
 4.- Terminou o script? Faça logout. Na tela de login no seu lado direito superior proximo ao selecionar idioma, selecione BSPWM e realize o login novamente.
 
@@ -66,28 +66,44 @@ obs: Todos os atalhos pré-definidos você pode encontrar em: ~/.config/sxhkd/sx
 
 `settarget 10.10.10.10 box.htb`  seta a box no target da polybar
 
-`pavucontrol` abre administração do audio
+`pavucontrol` abre administração do audio, pra aumentar e abaixar o volume
 
 `logout` faz logout na sua maquina
 
 `desligar` desliga a maquina
 
-`neofetch`  Mostra informações do sistema
+`thunar` Abre o visualizador de arquivo
 
 `rmk arquivo.txt`  remove arquivos e dificulta a recuperação dos dados com tecnicas forense
 
 
+## Comandos legais:
 
-Dúvidas:
+`neofetch`  Mostra informações do sistema
+
+`cmatrix`  Simula o matrix
+
+`hollywood`  Simula hacking de hollywood
+
+`bash ~/pipes.sh`  Cobrinha no terminal
+
+
+## Dúvidas Frequentes:
 
 Como trocar o wallpaper?
+
 `nano ~/.config/bspwm/bspwmrc` altere o destino/path da imagem nesse arquivo;
 
 Como trocar o esquema de cores do terminal?
+
 `wal --theme random_dark`  Via randomica
 
+Pra que serve a pasta "go/bin" na minha home?
 
-Quaisquer dúvidas, ou problemas que enfrentar na instalação fale comigo!
+`ls ~/go/bin/`  Tudo que voce instalar via go vai pra essa pasta, e voce pode chamar de qualquer lugar do terminal
+
+
+Quaisquer dúvidas ou problemas que enfrentar na instalação fale comigo!
 ## 🦸 Autor
 
  <a href="https://github.com/al4xs">
@@ -104,7 +120,7 @@ Quaisquer dúvidas, ou problemas que enfrentar na instalação fale comigo!
 
 ## 📝 Licença
 
-Feito or Al4xs 👋🏽 [Entre em contato!](https://www.linkedin.com/in/michael-al4xs/)
+Feito por Al4xs 👋🏽 [Entre em contato!](https://www.linkedin.com/in/michael-al4xs/)
 
-and HACK THE PLANET!
+HACK THE PLANET!
 ---
