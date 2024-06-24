@@ -74,7 +74,7 @@ obs: Todos os atalhos pré-definidos você pode encontrar em: ~/.config/sxhkd/sx
 
 `neofetch`  Mostra informações do sistema
 
-`rmk arquivo.txt`  remove arquivos e difulta a recuperação dos dados com tecnicas forense
+`rmk arquivo.txt`  remove arquivos e dificulta a recuperação dos dados com tecnicas forense
 
 
 
