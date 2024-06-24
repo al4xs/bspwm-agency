@@ -260,6 +260,7 @@ else
 	chmod 644 /usr/share/backgrounds/kali/screenlogin.png
 	rm -rf /etc/lightdm/lightdm-gtk-greeter.conf
 	cp -rv $dir/scripts/lightdm-gtk-greeter.conf /etc/lightdm/
+	rm -rf $dir/scripts/lightdm-gtk-greeter.conf
 
 
 	echo -e "\n${purpleColour}[*] Configuring necessary permissions and symbolic links...\n${endColour}"
