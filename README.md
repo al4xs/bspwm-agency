@@ -1,4 +1,4 @@
-# Bspwm - Arcade theme
+# Bspwm - NSA THEME
 
 BSPWM feito para kali linux, perfeito para jogar ctf e trabalhar.
 
