@@ -27,6 +27,9 @@ Disponibilizei uma gama de wallpapers que gosto de usar e ter em meu kali linux.
 
 4.- Terminou o script? Faça logout. Na tela de login no seu lado direito superior proximo ao selecionar idioma, selecione BSPWM e realize o login novamente.
 
+![Picture 1](preview/demo0.png)
+
+
 5.- Esse é de longe o meu bspwm favorito, se estiver utilizando, tira uma foto e me marca no instagram! #TMJ
 
 Abaixo, uma pequena demonstração de como seu ambiente vai ficar:
