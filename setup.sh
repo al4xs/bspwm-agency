@@ -250,9 +250,17 @@ else
 	cp -rv $dir/home/.* ~/
 	rm -rf ~/.cache/wal
 	cp -rv $dir/wal ~/.cache/wal
+	cp -rv $dir/wal /root/.cache/wal
 	touch ~/.config/polybar/shapes/scripts/target
 	echo -e "\n${greenColour}[+] Done\n${endColour}"
 	sleep 1.5
+
+	echo -e "\n${greenColour}[+] Setando Wallpaper Done\n${endColour}"
+	sudo cp -rv ~/Wallpapers/screenlogin.png /usr/share/backgrounds/kali/
+	chmod 644 /usr/share/backgrounds/kali/screenlogin.png
+	rm -rf /etc/lightdm/lightdm-gtk-greeter.conf
+	cp -rv $dir/scripts/lightdm-gtk-greeter.conf /etc/lightdm/
+
 
 	echo -e "\n${purpleColour}[*] Configuring necessary permissions and symbolic links...\n${endColour}"
 	sleep 2
