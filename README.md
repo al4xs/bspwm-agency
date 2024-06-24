@@ -92,6 +92,7 @@ obs: Todos os atalhos pré-definidos você pode encontrar em: ~/.config/sxhkd/sx
 
 `catn arquivo.txt`  Visualiza um arquivo com cores
 
+`ranger`  Navega em diretórios via terminal
 
 ## Dúvidas Frequentes:
 
