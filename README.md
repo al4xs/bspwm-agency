@@ -87,6 +87,8 @@ obs: Todos os atalhos pré-definidos você pode encontrar em: ~/.config/sxhkd/sx
 
 `bash ~/pipes.sh`  Cobrinha no terminal
 
+`catn arquivo.txt`  Visualiza um arquivo com cores
+
 
 ## Dúvidas Frequentes:
 
